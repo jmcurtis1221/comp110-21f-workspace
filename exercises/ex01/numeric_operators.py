@@ -1,12 +1,12 @@
-"""Numerical Operators Program to display results of different numerical operators"""
+"""Numerical Operators Program to display results of different numerical operators."""
 
 __author__ = "730390523"
 
-left: int = input("Left-hand side:")
-right: int = input("Right-hand side:")
+left: str = input("Left-hand side:")
+right: str = input("Right-hand side:")
 
 answer1: int = (int(left) ** int(right))
-answer2: int = (int(left) / int(right))
+answer2: float = (int(left) / int(right))
 answer3: int = (int(left) // int(right))
 answer4: int = (int(left) % int(right))
 
